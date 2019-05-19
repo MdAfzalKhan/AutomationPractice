@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Practice">
+
+
+	<listeners>
+		<listener class-name="com.ap.ui.ExtentReport.Listener.ExtentReporterN.java"></listener>
+	</listeners>
+
+	<test name="Automation Practice App Test Cases">
+
+
+		<classes>
+			<class name="com.ap.ui.testcase.LoginPageTestCases.java"></class>
+			<class name="com.ap.ui.testcase.ContactsPageTest.java"></class>
+			<class name="com.ap.ui.testcase.SearchItemTest.java"></class>
+			<class name="com.ap.ui.testcase.AddWishlistTest.java"></class>
+			<class name="com.ap.ui.testcase.CheckOutProductTest.java"></class> <!-- (select whole line then shift+ctrl+/(backlash)) -->
+			                                                                      <!-- to uncomment shift+ctrl+c -->
+
+		</classes>
+
+	</test>
+</suite>
